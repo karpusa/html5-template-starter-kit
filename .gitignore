@@ -1,6 +1,0 @@
-node_modules/*
-!node_modules/.gitkeep
-bower_components/*
-!bower_components/.gitkeep
-dist/*
-!dist/.gitkeep
