@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="header">
+    	<div class="container">
+            {% include "../partial/nav.html" %}
+        </div>
+    </div>
+    <div class="container">
+        <div class="page">
+            <h1>{% block title %} {% endblock %}</h1>
+            {% block content %}
+      		{% endblock %}
+            <div class="align-center">
+                <img class="img" src="i/html5-css-javascript.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <p>Created by <a href="http://www.karpusa.lv" title="Link" target="_blank">karpusa.lv</a>, email <a href="mailto:vkarpusha@gmail.com">vkarpusha@gmail.com</a></p>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/module.js"></script>
+</body>
+</html>

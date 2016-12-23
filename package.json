@@ -1,0 +1,27 @@
+{
+  "name": "html5-template-starter-kit",
+  "description": "html5 responsive template starter",
+  "version": "1.0.0",
+  "author": "Vitalijs Karpusa <vkarpusha@gmail.com> (http://www.karpusa.lv)",
+  "repository": "karpusa/html5-template-starter-kit",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "bower install",
+    "prestart": "npm install",
+    "start": "gulp",
+    "serve": "gulp",
+    "build": "gulp build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.5",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-less": "^3.3.0",
+    "gulp-minify": "0.0.14",
+    "gulp-nunjucks-render": "^2.0.0",
+    "less-plugin-autoprefix": "^1.5.1",
+    "less-plugin-glob": "^1.1.1"
+  }
+}
