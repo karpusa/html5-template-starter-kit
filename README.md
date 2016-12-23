@@ -30,7 +30,7 @@ First run
 npm start          # install nodejs and bower dependencies, running browserSync on http://localhost:3000/ and watch files changes.
 ```
 
-Another commands
+Other commands
 
 ```bash
 npm run serve      # Only watch change files
