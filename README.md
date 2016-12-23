@@ -20,6 +20,9 @@ HTML5 responsive template starter kit. Usefull for fast development HTML pages. 
     │   └── template      # template with nunjucks
     └── dist              # build folder
 
+## Demo
+Link to [Demo](https://karpusa.github.io/html5-template-starter-kit/) of build.
+
 ## Quickstart
 
 Install [Node.js](https://nodejs.org/en/).
