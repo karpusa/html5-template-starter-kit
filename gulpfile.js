@@ -22,7 +22,6 @@ var gulp = require('gulp'),
 
 // serve files
 gulp.task('serve', function() {
-    console.log('running server');
     browserSync({
         browser: "chrome",
         server: {
@@ -87,7 +86,7 @@ gulp.task('clean', function () {
 });
 
 // default task to be run with gulp
-gulp.task('default', ['clean', 'image', 'nunjucks', 'less', 'serve']);
+gulp.task('default', ['clean', 'nunjucks', 'less', 'serve', 'image']);
 
 // build
 gulp.task('build', ['clean', 'image', 'nunjucks', 'less']);
