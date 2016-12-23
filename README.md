@@ -1,5 +1,5 @@
 # html5-template-starter-kit
-HTML5 responsive template starter. Usefull for fast development HTML pages. Fast & easy start with example page.
+HTML5 responsive template starter kit. Usefull for fast development HTML pages. Fast & easy start with example page.
 
 ## Starter kit include
 * Less - CSS pre-processor, bonus folders structure with Media Queries breakpoints with support responsive

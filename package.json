@@ -5,6 +5,17 @@
   "author": "Vitalijs Karpusa <vkarpusha@gmail.com> (http://www.karpusa.lv)",
   "repository": "karpusa/html5-template-starter-kit",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karpusa/html5-template-starter-kit.git"
+  },
+  "keywords": [
+    "html5",
+    "template",
+    "responsive",
+    "less",
+    "nunjucks"
+  ],
   "scripts": {
     "postinstall": "bower install",
     "prestart": "npm install",
